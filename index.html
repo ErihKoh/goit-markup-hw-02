@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="page-header">
       <nav class="site-nav">
-        <a href="./index.html" class="logo">Web Studio</a>
-        <ul>
+        <a href="./index.html" class="logo">
+          <span class="web">Web</span> Studio</a
+        >
+        <ul class="site-nav-link">
           <li>
             <a href="./index.html">Студия</a>
           </li>
@@ -43,15 +46,15 @@
     </header>
     <main>
       <div>
-        <section>
-          <h1>эффективные решения для вашего бизнеса</h1>
-          <a href="#">Заказать услугу</a>
+        <section class="hero">
+          <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+          <a href="#" class="hero-link">Заказать услугу</a>
         </section>
       </div>
 
       <!-- <h2>Наши преимущества</h2> -->
 
-      <section>
+      <section class="section">
         <ul>
           <li>
             <img
@@ -60,7 +63,7 @@
               height="70"
               alt="антенна"
             />
-            <h3>Внимание к деталям</h3>
+            <h3 class="section-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -68,7 +71,7 @@
           </li>
           <li>
             <img src="./image/clock1.svg" width="70" height="70" alt="часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="section-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -81,7 +84,7 @@
               height="70"
               alt="ноутбук"
             />
-            <h3>Планирование</h3>
+            <h3 class="section-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -94,7 +97,7 @@
               height="70"
               alt="космонавт"
             />
-            <h3>Современные технологии</h3>
+            <h3 class="section-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -102,10 +105,11 @@
           </li>
         </ul>
       </section>
-      <section>
-        <!-- наши возможности -->
 
-        <h2>Чем мы занимаемся</h2>
+      <!-- наши возможности -->
+
+      <section class="section">
+        <h2 class="title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -114,7 +118,7 @@
               height="294"
               alt="ноутбук"
             />
-            <p>
+            <p class="section-items">
               Десктопные приложения
             </p>
           </li>
@@ -125,7 +129,7 @@
               height="294"
               alt="телефон"
             />
-            <p>
+            <p class="section-items">
               Мобильные приложения
             </p>
           </li>
@@ -136,7 +140,7 @@
               height="294"
               alt="экран"
             />
-            <p>
+            <p class="section-items">
               Дизайнерские решения
             </p>
           </li>
@@ -145,8 +149,8 @@
 
       <!-- команда -->
 
-      <section>
-        <h2>Наша команда</h2>
+      <section class="team-section">
+        <h2 class="title">Наша команда</h2>
         <ul>
           <li>
             <div>
@@ -156,10 +160,10 @@
                 height="260"
                 alt="дизайнер Джон"
               />
-              <h3>John Smith</h3>
-              <p>Product Designer</p>
+              <h3 class="section-title">John Smith</h3>
+              <p class="team-profession">Product Designer</p>
             </div>
-            <ul>
+            <ul class="team-link">
               <li>
                 <a href="#" aria-label="инстаграм"> </a>
               </li>
@@ -182,10 +186,10 @@
                 height="260"
                 alt="разработчик Марта"
               />
-              <h3>Marta Stewart</h3>
-              <p>Frontend Developer</p>
+              <h3 class="section-title">Marta Stewart</h3>
+              <p class="team-profession">Frontend Developer</p>
             </div>
-            <ul>
+            <ul class="team-link">
               <li>
                 <a href="#" aria-label="инстаграм"> </a>
               </li>
@@ -208,10 +212,10 @@
                 height="260"
                 alt="маркетолог Роберт"
               />
-              <h3>Robert Jakis</h3>
-              <p>Marketing</p>
+              <h3 class="section-title">Robert Jakis</h3>
+              <p class="team-profession">Marketing</p>
             </div>
-            <ul>
+            <ul class="team-link">
               <li>
                 <a href="#" aria-label="инстаграм"> </a>
               </li>
@@ -234,10 +238,10 @@
                 height="260"
                 alt="дизайнер Мартин"
               />
-              <h3>Martin Doe</h3>
-              <p>UI Designer</p>
+              <h3 class="section-title">Martin Doe</h3>
+              <p class="team-profession">UI Designer</p>
             </div>
-            <ul>
+            <ul class="team-link">
               <li>
                 <a href="#" aria-label="инстаграм"> </a>
               </li>
@@ -257,10 +261,10 @@
 
       <!-- клиенты -->
 
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="clients-section">
+        <h2 class="title">Постоянные клиенты</h2>
 
-        <ul>
+        <ul class="section-clients">
           <li>
             <a href="#">
               <img
@@ -325,15 +329,17 @@
       </section>
     </main>
     <footer>
-      <a href="/">Web Studio</a>
-
+      <a href="./index.html" class="logo">
+        <span class="web-footer">Web</span>
+        <span class="studio-footer">Studio</span>
+      </a>
       <address>
-        г. Киев, пр-т Леси Украинки, <br />
-        26 info@example.com <br />
-        +38 099 111 11 11
+        <p class="city">г. Киев, пр-т Леси Украинки 26</p>
+        <p class="contacts-footer">info@example.com</p>
+        <p class="contacts-footer">+38 099 111 11 11</p>
       </address>
       <div>
-        <p>
+        <p class="community">
           Присоединяйтесь
         </p>
         <ul>
@@ -351,7 +357,7 @@
           </li>
         </ul>
       </div>
-      <p>
+      <p class="copyright">
         2020 | Developed by GoIT Students
       </p>
     </footer>

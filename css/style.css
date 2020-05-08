@@ -1,0 +1,131 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-bg-color: #ffffff;
+  --add-bg-color: #f5f4fa;
+}
+
+body {
+  background: var(--primery-bg-color);
+  color: var(--primery-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* site-nav */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.web:hover {
+  color: var(--title-text-color);
+}
+
+.site-nav-link a {
+  color: var(--title-text-color);
+}
+
+.site-nav-link a:hover,
+.site-nav-link a:focus {
+  color: var(--accent-color);
+}
+
+.contatcs a {
+  color: var(--primery-text-color);
+}
+
+.contatcs a:hover,
+.contatcs a:focus {
+  color: var(--accent-color);
+}
+/* hero */
+
+.hero-title {
+  color: #f5f4fa;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+.section-items {
+  color: #f5f4fa;
+}
+/* team-section */
+
+.team-section {
+  background: var(--add-bg-color);
+}
+.team-section .title {
+  color: var(--title-text-color);
+}
+
+.clients-section .title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+footer {
+  background: #2f303a;
+}
+.web-footer {
+  color: var(--accent-color);
+}
+.web-footer:hover {
+  color: var(--primery-bg-color);
+}
+.studio-footer {
+  color: var(--primery-bg-color);
+}
+.studio-footer:hover {
+  color: var(--accent-color);
+}
+.city {
+  color: var(--primery-bg-color);
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.community {
+  color: var(--primery-bg-color);
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* portfolio */
+
+/* buttons */
+
+.radio-button {
+    background var(--add-bg-color);
+}
+.radio-button:hover {
+    background: var(--accent-color);
+    color: var(--primery-bg-color);
+}
+
+/* examples */
+ .examples .title {
+     color: var(--title-text-color);
+ }
+
+.examples-item {
+    color: var(--primery-text-color);
+}

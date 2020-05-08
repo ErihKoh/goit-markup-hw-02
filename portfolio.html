@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="page-header">
       <nav class="site-nav">
-        <a href="./index.html" class="logo">Web Studio</a>
-        <ul>
+        <a href="./index.html" class="logo">
+          <span class="web">Web</span> Studio</a
+        >
+        <ul class="site-nav-link">
           <li>
             <a href="./index.html">Студия</a>
           </li>
@@ -48,21 +51,36 @@
         <!-- фильтры -->
 
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li>
+            <button class="radio-button" type="button">Все</button>
+          </li>
+          <li>
+            <button class="radio-button" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="radio-button" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="radio-button" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="radio-button" type="button">Маркетинг</button>
+          </li>
         </ul>
 
         <!--примеры работы-->
 
-        <ul>
+        <ul class="examples">
           <li>
             <a href="#">
-              <img src="./image/laptopimg.jpg" alt="ноутбук" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <img
+                src="./image/laptopimg.jpg"
+                width="380"
+                height="294"
+                alt="ноутбук"
+              />
+              <h2 class="title">Технокряк</h2>
+              <p class="examples-item">Веб-сайт</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -72,9 +90,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/basketboll.jpg" alt="баскетболисты" />
-              <h2>Постер New Orlean vs Golden Stars</h2>
-              <p>Дизайн</p>
+              <img
+                src="./image/basketboll.jpg"
+                width="380"
+                height="294"
+                alt="баскетболисты"
+              />
+              <h2 class="title">Постер New Orlean vs Golden Stars</h2>
+              <p class="examples-item">Дизайн</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -84,9 +107,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/restaurant.jpg" alt="логотип ресторана" />
-              <h2>Ресторан Seafood</h2>
-              <p>Веб-сайт</p>
+              <img
+                src="./image/restaurant.jpg"
+                width="380"
+                height="294"
+                alt="логотип ресторана"
+              />
+              <h2 class="title">Ресторан Seafood</h2>
+              <p class="examples-item">Веб-сайт</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -96,9 +124,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/headphones.jpg" alt="наушники" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <img
+                src="./image/headphones.jpg"
+                width="380"
+                height="294"
+                alt="наушники"
+              />
+              <h2 class="title">Проект Prime</h2>
+              <p class="examples-item">Маркетинг</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -108,9 +141,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/twoboxes.jpg" alt="две коробки" />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <img
+                src="./image/twoboxes.jpg"
+                width="380"
+                height="294"
+                alt="две коробки"
+              />
+              <h2 class="title">Проект Boxes</h2>
+              <p class="examples-item">Приложение</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -120,9 +158,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/imac.jpg" alt="монитор" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <img
+                src="./image/imac.jpg"
+                width="380"
+                height="294"
+                alt="монитор"
+              />
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p class="examples-item">Веб-сайт</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -132,9 +175,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/book.jpg" alt="книга" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <img
+                src="./image/book.jpg"
+                width="380"
+                height="294"
+                alt="книга"
+              />
+              <h2 class="title">Издание Limited Edition</h2>
+              <p class="examples-item">Дизайн</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -144,9 +192,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/label.jpg" alt="сувенир" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <img
+                src="./image/label.jpg"
+                width="380"
+                height="294"
+                alt="сувенир"
+              />
+              <h2 class="title">Проект LAB</h2>
+              <p class="examples-item">Маркетинг</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -156,9 +209,14 @@
           </li>
           <li>
             <a href="#">
-              <img src="./image/openlaptop.jpg" alt="ноутбук" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <img
+                src="./image/openlaptop.jpg"
+                width="380"
+                height="294"
+                alt="ноутбук"
+              />
+              <h2 class="title">Growing Business</h2>
+              <p class="examples-item">Приложение</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
@@ -170,15 +228,17 @@
       </section>
     </main>
     <footer>
-      <a href="/">Web Studio</a>
-
+      <a href="./index.html" class="logo">
+        <span class="web-footer">Web</span>
+        <span class="studio-footer">Studio</span>
+      </a>
       <address>
-        г. Киев, пр-т Леси Украинки, <br />
-        26 info@example.com <br />
-        +38 099 111 11 11
+        <p class="city">г. Киев, пр-т Леси Украинки 26</p>
+        <p class="contacts-footer">info@example.com</p>
+        <p class="contacts-footer">+38 099 111 11 11</p>
       </address>
       <div>
-        <p>
+        <p class="community">
           Присоединяйтесь
         </p>
         <ul>
@@ -196,7 +256,7 @@
           </li>
         </ul>
       </div>
-      <p>
+      <p class="copyright">
         2020 | Developed by GoIT Students
       </p>
     </footer>
