@@ -21,15 +21,14 @@ a {
   text-decoration: none;
 }
 
-
 /* site-nav */
 
 .logo {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo:hover {
@@ -63,7 +62,7 @@ line-height: 1.2;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;  
+  letter-spacing: 0.02em;
 }
 
 .contatcs a:hover,
@@ -78,11 +77,11 @@ line-height: 1.2;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
-.hero-link { 
-  color: #ffffff; 
+.hero-link {
+  color: #ffffff;
   background: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
@@ -93,15 +92,22 @@ line-height: 1.2;
 /* section */
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
 }
 .section-items {
   color: #f5f4fa;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .section .title {
   color: var(--title-text-color);
-  font-weight: bold;
 }
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 /* team-section */
 
 .team-section {
@@ -112,9 +118,22 @@ line-height: 1.2;
   font-weight: bold;
 }
 
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* clients */
+
 .clients-section .title {
   color: var(--title-text-color);
-  font-weight: bold;
 }
 
 /* footer */
@@ -136,15 +155,27 @@ footer {
 }
 .city {
   color: var(--primery-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .community {
   color: var(--primery-bg-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
 }
 
 /* portfolio */
@@ -152,23 +183,28 @@ footer {
 /* buttons */
 
 .radio-button {
-    background var(--add-bg-color);
+  background: var(--add-bg-color);
 }
 .radio-button:hover {
-    background: var(--accent-color);
-    color: var(--primery-bg-color);
+  background: var(--accent-color);
+  color: var(--primery-bg-color);
 }
 
 .radio-button:focus {
-    background: var(--accent-color);
-    color: var(--primery-bg-color);
+  background: var(--accent-color);
+  color: var(--primery-bg-color);
 }
 
 /* examples */
- .examples .title {
-     color: var(--title-text-color);
- }
+.examples .title {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
 .examples-item {
-    color: var(--primery-text-color);
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
